@@ -91,16 +91,16 @@
             "brightRed": "#C87272",
             "brightWhite": "#0A6C7E",
             "brightYellow": "#A645B9",
-            "cursorColor": "#3f3f3f",
+            "cursorColor": "#616161",
             "cyan": "#7E83CC",
             "foreground": "#DDDDDD",
-            "green": "#3E0A54",
+            "green": "#2e54c6",
             "name": "BlueBerryPie",
             "purple": "#9D54A7",
             "red": "#99246E",
             "selectionBackground": "#300261",
             "white": "#F0E8D6",
-            "yellow": "#EAB9A8"
+            "yellow": "#a22900"
         },
         {
             "background": "#0C0C0C",
