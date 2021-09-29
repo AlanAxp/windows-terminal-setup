@@ -28,21 +28,18 @@
             "keys": "alt+shift+d"
         },
         {
-            "command":
-            {
-                "action": "togglePaneZoom",
-            },
+            "command": "togglePaneZoom",
             "keys": "alt+shift+l"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6102}",
     "profiles": 
     {
         "defaults": 
         {
-            "colorScheme": "BlueBerryPie",
+            "colorScheme": "One Half Dark",
             "font": 
             {
                 "face": "Hasklug NF"
@@ -50,6 +47,14 @@
         },
         "list": 
         [
+            {
+                "commandline": "cmd.exe /k C:\\Cmder\\vendor\\init.bat",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6102}",
+                "hidden": false,
+                "icon": "C:\\Cmder\\icons\\cmder_purple.ico",
+                "name": "Command Prompt",
+                "startingDirectory": "%USERPROFILE%"
+            },
             {
                 "commandline": "powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -94,13 +99,13 @@
             "cursorColor": "#616161",
             "cyan": "#7E83CC",
             "foreground": "#DDDDDD",
-            "green": "#2e54c6",
+            "green": "#490B6D",
             "name": "BlueBerryPie",
             "purple": "#9D54A7",
             "red": "#99246E",
             "selectionBackground": "#300261",
             "white": "#F0E8D6",
-            "yellow": "#a22900"
+            "yellow": "#A22900"
         },
         {
             "background": "#0C0C0C",
@@ -166,7 +171,7 @@
             "green": "#37482B",
             "name": "One Half Dark",
             "purple": "#C678DD",
-            "red": "#E06C75",
+            "red": "#9e4c53",
             "selectionBackground": "#FFFFFF",
             "white": "#DCDFE4",
             "yellow": "#E5C07B"
