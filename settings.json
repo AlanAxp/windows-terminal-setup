@@ -11,6 +11,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "togglePaneZoom",
+            "keys": "alt+shift+l"
+        },
+        {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
@@ -26,10 +30,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "togglePaneZoom",
-            "keys": "alt+shift+l"
         }
     ],
     "copyFormatting": "none",
@@ -39,11 +39,12 @@
     {
         "defaults": 
         {
+            "acrylicOpacity": 0.68000000000000005,
             "colorScheme": "One Half Dark",
-            "font": 
-            {
-                "face": "Hasklug NF"
-            }
+            "experimental.retroTerminalEffect": false,
+            "padding": "0",
+            "fontFace": "FantasqueSansMono NF",
+            "useAcrylic": false
         },
         "list": 
         [
@@ -69,16 +70,15 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -160,7 +160,7 @@
             "brightBlack": "#5A6374",
             "brightBlue": "#61AFEF",
             "brightCyan": "#56B6C2",
-            "brightGreen": "#607850",
+            "brightGreen": "#75b947",
             "brightPurple": "#C678DD",
             "brightRed": "#E06C75",
             "brightWhite": "#DCDFE4",
@@ -171,7 +171,7 @@
             "green": "#37482B",
             "name": "One Half Dark",
             "purple": "#C678DD",
-            "red": "#9e4c53",
+            "red": "#9E4C53",
             "selectionBackground": "#FFFFFF",
             "white": "#DCDFE4",
             "yellow": "#E5C07B"
