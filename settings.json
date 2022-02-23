@@ -35,6 +35,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6102}",
+    "launchMode": "maximized",
     "profiles": 
     {
         "defaults": 
@@ -42,8 +43,11 @@
             "acrylicOpacity": 0.68000000000000005,
             "colorScheme": "One Half Dark",
             "experimental.retroTerminalEffect": false,
-            "padding": "0",
-            "fontFace": "FantasqueSansMono NF",
+            "font": 
+            {
+                "face": "FantasqueSansMono NF"
+            },
+            "padding": "7",
             "useAcrylic": false
         },
         "list": 
@@ -77,6 +81,7 @@
             },
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             }
@@ -160,7 +165,7 @@
             "brightBlack": "#5A6374",
             "brightBlue": "#61AFEF",
             "brightCyan": "#56B6C2",
-            "brightGreen": "#75b947",
+            "brightGreen": "#75B947",
             "brightPurple": "#C678DD",
             "brightRed": "#E06C75",
             "brightWhite": "#DCDFE4",
@@ -315,5 +320,6 @@
             "yellow": "#808000"
         }
     ],
+    "startOnUserLogin": true,
     "windowingBehavior": "useAnyExisting"
 }
